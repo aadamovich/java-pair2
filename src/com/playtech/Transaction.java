@@ -1,8 +1,6 @@
 package com.playtech;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 public class Transaction {
 
@@ -42,6 +40,4 @@ public class Transaction {
         this.timeStamp = timeStamp;
     }
 
-    public Transaction(Object o) {
-    }
 }
